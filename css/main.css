@@ -28,7 +28,7 @@ body {
 .link-card h2 {
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
-  margin-top: .5em;
+  margin-top: .3em;
   font-weight: bold;
 }
 
@@ -37,14 +37,21 @@ p, nav {
 }
 
 dl {
-  display: inline-block;
   font-size: .875rem;
   list-style-type: none;
   padding: 0;
 }
 
+dt {
+  display: inline;
+  text-align: left;
+}
+
 dd {
+  display: inline;
   font-style: italic;
+  margin-left: 0;
+  padding-left: 5em;
 }
 
 nav {
@@ -53,6 +60,7 @@ nav {
 }
 
 .btn {
+  display: inline-block;
   font-family: Dosis, sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
@@ -62,11 +70,6 @@ nav {
   padding: .4em .75em .5em;
   border-radius: 8px;
   margin-top: 1em;
-}
-
-div {
-  display: inline-block;
-  text-align: center;
 }
 
 .link-card:hover .btn {
