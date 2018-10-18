@@ -14,16 +14,41 @@ body {
 section {
   background-color: #dcd4cd;
   border: 3px solid #9a816d;
-  border-radius: 8px;
+  border-radius: 3px;
   color: #512200;
+  padding: 1rem;
 }
 
 h1 {
   font-family: Dosis, sans-serif;
-  font-weight: bold;
   font-size: 1.5rem;
 }
 
 p, nav {
   font-family: Georgia, serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav {
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
+}
+
+.link-card {
+  display: inline-block;
+  width: 7em;
+  font-family: Dosis, sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  background-color: #785439;
+  color: #fff;
+  text-decoration: none;
+  padding: .4em .75em .5em;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 1em;
 }
