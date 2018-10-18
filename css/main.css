@@ -1,7 +1,29 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5rem;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #f0eee8;
+}
+
+section {
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  color: #512200;
+}
+
+h1 {
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p, nav {
+  font-family: Georgia, serif;
 }
