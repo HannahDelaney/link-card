@@ -25,18 +25,26 @@ body {
   background-color: #cabdb2;
 }
 
-h1 {
+.link-card h2 {
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
+  margin-top: .5em;
+  font-weight: bold;
 }
 
 p, nav {
   font-family: Georgia, serif;
 }
 
-ul {
+dl {
+  display: inline-block;
+  font-size: .875rem;
   list-style-type: none;
   padding: 0;
+}
+
+dd {
+  font-style: italic;
 }
 
 nav {
@@ -60,6 +68,7 @@ div {
   display: inline-block;
   text-align: center;
 }
+
 .link-card:hover .btn {
   background-color: #512200;
 }
