@@ -19,6 +19,7 @@ body {
   color: #512200;
   padding: 1rem;
   text-decoration: none;
+  text-align: center;
 }
 
 .link-card:hover {
@@ -30,10 +31,12 @@ body {
   font-size: 1.5rem;
   margin-top: .3em;
   font-weight: bold;
+  text-align: left;
 }
 
 p, nav {
   font-family: Georgia, serif;
+  text-align: left;
 }
 
 dl {
@@ -45,7 +48,6 @@ dl {
 
 dt {
   display: inline-block;
-  text-align: left;
   width: 50px;
 }
 
@@ -61,10 +63,6 @@ nav {
   border-bottom: 2px solid #9a816d;
 }
 
-div .btn {
-  text-align: center;
-}
-
 .link-card .btn {
   display: inline-block;
   font-family: Dosis, sans-serif;
@@ -75,7 +73,6 @@ div .btn {
   padding: .4em .75em .5em;
   border-radius: 8px;
   margin-top: 1em;
-  text-align: center;
 }
 
 .link-card:hover .btn {
