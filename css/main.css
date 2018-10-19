@@ -44,16 +44,16 @@ dl {
 }
 
 dt {
-  display: inline;
+  display: inline-block;
   text-align: left;
-  width: 100px;
+  width: 50px;
 }
 
 dd {
   display: inline;
   font-style: italic;
   margin-left: 0;
-  padding-left: 5.5em;
+  padding-left: 5em;
 }
 
 nav {
@@ -62,7 +62,6 @@ nav {
 }
 
 div .btn {
-  display: inline-block;
   text-align: center;
 }
 
@@ -71,12 +70,12 @@ div .btn {
   font-family: Dosis, sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
-  text-align: center;
   background-color: #785439;
   color: #fff;
   padding: .4em .75em .5em;
   border-radius: 8px;
   margin-top: 1em;
+  text-align: center;
 }
 
 .link-card:hover .btn {
